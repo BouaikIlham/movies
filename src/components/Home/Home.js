@@ -1,8 +1,12 @@
 import React from 'react'
+import { MovieListing } from "../MovieListing/MovieListing"
 
 function Home() {
     return (
-        <div>Home</div>
+        <div>
+            <div className="banner-image"></div>
+            <MovieListing />
+        </div>
     )
 }
 

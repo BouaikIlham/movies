@@ -6,4 +6,4 @@ function MovieListing() {
     )
 }
 
-export default MovieListing
+export { MovieListing } 
