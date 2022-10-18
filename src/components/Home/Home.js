@@ -8,7 +8,7 @@ function Home() {
     const dispatch = useDispatch();
     useEffect(() => {
         const fetchMovies = async () => {
-            const response = await axios.get("http://www.omdbapi.com/?s=hello&apikey=d40ec0d7")
+            const response = await axios.get("http://www.omdbapi.com/?s=Harry&apikey=d40ec0d7")
                 .catch((err) => {
                     console.log("Error", err)
                 });
